@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080b16" />
+  <meta name="description" content="Jay Mane — MCA student, MERN Stack Developer, and problem solver building practical digital experiences." />
+  <title>Jay Mane | 3D Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="nav">
+    <a class="brand" href="#home"><span class="brand-mark">JM</span><span>jay<span class="accent">mane</span><i>.</i></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navLinks">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES <span class="mono">/ 2026</span></div>
+        <h1>Building solutions.<br><span class="gradient-text">Creating impact.</span></h1>
+        <p class="hero-sub">Hi, I'm <strong>Jay Mane</strong> — an MCA student and aspiring <strong>MERN Stack Developer</strong> who loves turning ideas into useful, thoughtful web experiences.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span>↘</span></a><a class="button secondary" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><span><b>01</b> Developer</span><span><b>02</b> Problem solver</span><span><b>03</b> Lifelong learner</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-label label-top"><span class="pulse"></span> DIGITAL CRAFT / 3D SPACE</div>
+        <div class="scene-wrap" id="sceneWrap">
+          <canvas id="threeCanvas" aria-label="Animated 3D abstract portfolio artwork"></canvas>
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="portrait-card"><img src="assets/jay-mane-portrait.jpg" alt="Jay Mane wearing a navy blazer" /><span class="portrait-caption"><i></i> JAY MANE <small>DEVELOPER</small></span></div>
+          <div class="floating-card card-location"><span class="pin">⌖</span><div><small>BASED IN</small><strong>Maharashtra, IN</strong></div></div>
+          <div class="hero-number">JM<span>®</span></div>
+        </div>
+        <div class="visual-label label-bottom">CREATIVE THINKING <span>✳</span> CLEAN CODE</div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="ticker" aria-label="Focus areas"><div class="ticker-track"><span>FULL-STACK DEVELOPMENT</span><i>✳</i><span>REACT & NODE.JS</span><i>✳</i><span>PROBLEM SOLVING</span><i>✳</i><span>BUILDING FOR PEOPLE</span><i>✳</i><span>FULL-STACK DEVELOPMENT</span><i>✳</i><span>REACT & NODE.JS</span><i>✳</i><span>PROBLEM SOLVING</span><i>✳</i></div></section>
+
+    <section class="section about-section" id="about">
+      <div class="section-kicker"><span>01 / ABOUT ME</span><span class="line"></span></div>
+      <div class="about-grid">
+        <div><h2>Curious mind.<br><span class="muted">Builder's mindset.</span></h2></div>
+        <div class="about-copy"><p class="large-copy">I enjoy building scalable web applications and solving real-world problems with code.</p><p>I'm currently pursuing my MCA and growing my skills across the modern JavaScript ecosystem. I like exploring ideas, learning by building, and creating applications that feel simple to use and genuinely helpful.</p>
+          <div class="education-card"><div class="edu-icon">↗</div><div><small>EDUCATION</small><strong>MCA Student</strong><span>DKTE's Textile and Engineering Institute</span></div><span class="edu-year">CURRENT</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-kicker"><span>02 / TOOLKIT</span><span class="line"></span></div>
+      <div class="section-heading"><h2>Tools I build with<span class="accent">.</span></h2><p>A growing toolkit for taking ideas from concept to product.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card tilt"><div class="skill-top"><span class="skill-symbol">✳</span><span class="skill-index">01</span></div><h3>Frontend</h3><p>Interfaces with a focus on clarity, responsive layouts, and smooth interactions.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></div></article>
+        <article class="skill-card tilt"><div class="skill-top"><span class="skill-symbol">{ }</span><span class="skill-index">02</span></div><h3>Backend</h3><p>Learning to design dependable APIs and application logic.</p><div class="tags"><span>Node.js</span><span>Express</span><span>REST APIs</span></div></article>
+        <article class="skill-card tilt"><div class="skill-top"><span class="skill-symbol">◈</span><span class="skill-index">03</span></div><h3>Data & tools</h3><p>Working with data, version control, and developer workflows.</p><div class="tags"><span>MongoDB</span><span>Git</span><span>GitHub</span></div></article>
+        <article class="skill-card tilt"><div class="skill-top"><span class="skill-symbol">↗</span><span class="skill-index">04</span></div><h3>Mindset</h3><p>Breaking down challenges, experimenting, and improving through feedback.</p><div class="tags"><span>Problem solving</span><span>Teamwork</span><span>Learning</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-kicker"><span>03 / SELECTED WORK</span><span class="line"></span></div>
+      <div class="section-heading projects-heading"><div><h2>Ideas into <span class="gradient-text">applications.</span></h2><p>A selection of projects visible in the supplied GitHub reference.</p></div><span class="project-count">05 PROJECTS <span>↘</span></span></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured"><div class="project-art art-notes"><div class="art-window"><div class="window-bar"><i></i><i></i><i></i><span>my notes / workspace</span></div><div class="note-layout"><div class="note-sidebar"><b>MY SPACE</b><span>◈ All notes</span><span>☆ Favorites</span><span>⌁ Archived</span></div><div class="note-main"><small>MONDAY, 09:41 AM</small><h4>Ideas worth<br>remembering<span>.</span></h4><div class="note-line"></div><div class="note-line short"></div><div class="note-chip">+ New note</div></div></div></div><span class="art-orb"></span></div><div class="project-info"><div><span class="project-type">PRODUCTIVITY / WEB APP</span><h3>Smart Note Taking Application</h3></div><span class="project-arrow">↗</span></div><p>A productivity-focused concept for capturing, organizing, and revisiting notes.</p><div class="tags"><span>JavaScript</span><span>Web app</span><span>Productivity</span></div><a class="project-link" href="https://github.com/Jay208mane/Smart-Note-Taking-Application" target="_blank" rel="noreferrer">View repository <span>↗</span></a></article>
+        <article class="project-card"><div class="project-art art-health"><div class="health-cross">+</div><div class="health-ring ring-one"></div><div class="health-ring ring-two"></div><div class="health-label">CARE, CONNECTED.</div><div class="health-wave">⌁</div></div><div class="project-info"><div><span class="project-type">HEALTH / WEB APP</span><h3>Healthcare</h3></div><span class="project-arrow">↗</span></div><p>A healthcare project focused on making digital health workflows more accessible.</p><div class="tags"><span>Web app</span><span>Healthcare</span></div><a class="project-link" href="https://github.com/Jay208mane/HEALTHCARE" target="_blank" rel="noreferrer">View repository <span>↗</span></a></article>
+        <article class="project-card"><div class="project-art art-study"><div class="study-paper"><span>YOUR WEEK</span><b>Make progress<br>every day.</b><div class="study-check">✓ Study session</div><div class="study-check">✓ Review notes</div><div class="study-check faded">○ Practice</div></div><span class="study-star">✳</span></div><div class="project-info"><div><span class="project-type">LEARNING / PLANNER</span><h3>Study Planner</h3></div><span class="project-arrow">↗</span></div><p>A planning concept for organizing study sessions and tracking learning tasks.</p><div class="tags"><span>Productivity</span><span>Planning</span></div><a class="project-link" href="https://github.com/Jay208mane/study-planner" target="_blank" rel="noreferrer">View repository <span>↗</span></a></article>
+        <article class="project-card"><div class="project-art art-data"><div class="data-grid"></div><div class="data-panel"><span>DATA INSIGHTS</span><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><small>ANALYSIS COMPLETE <b>↗</b></small></div><span class="data-spark">✳</span></div><div class="project-info"><div><span class="project-type">DATA / ANALYTICS</span><h3>AI Dataset Analyzer</h3></div><span class="project-arrow">↗</span></div><p>An exploration of AI-assisted dataset analysis and insight discovery.</p><div class="tags"><span>AI</span><span>Data analysis</span></div><a class="project-link" href="https://github.com/Jay208mane/ai-dataset-analyzer" target="_blank" rel="noreferrer">View repository <span>↗</span></a></article>
+        <article class="project-card"><div class="project-art art-academy"><div class="academy-badge">A<span>+</span></div><div class="academy-lines"><i></i><i></i><i></i></div><div class="academy-caption">ACADEMY MANAGEMENT</div></div><div class="project-info"><div><span class="project-type">EDUCATION / MANAGEMENT</span><h3>Academy Management</h3></div><span class="project-arrow">↗</span></div><p>A management-system project for organizing academic information and workflows.</p><div class="tags"><span>Management</span><span>Education</span></div><a class="project-link" href="https://github.com/Sudarshan2323/academy-management" target="_blank" rel="noreferrer">View repository <span>↗</span></a></article>
+      </div>
+      <p class="project-note">Project descriptions are portfolio summaries based on repository names; update them to reflect each project's actual features and technology stack.</p>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-panel"><div class="contact-glow"></div><div class="section-kicker"><span>04 / GET IN TOUCH</span><span class="line"></span></div><div class="contact-content"><div><h2>Have an idea?<br><span class="gradient-text">Let's build it.</span></h2><p>I'm always happy to connect with developers, learn from new people, and explore interesting opportunities.</p></div><div class="contact-links"><a href="https://github.com/Jay208mane" target="_blank" rel="noreferrer"><span class="contact-icon">⌘</span><span><small>EXPLORE MY CODE</small><strong>GitHub</strong></span><b>↗</b></a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span class="contact-icon">in</span><span><small>LET'S CONNECT</small><strong>LinkedIn</strong></span><b>↗</b></a><a href="mailto:your.email@example.com"><span class="contact-icon">@</span><span><small>SEND A MESSAGE</small><strong>Email</strong></span><b>↗</b></a></div></div></div>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">JM</span><span>jay<span class="accent">mane</span><i>.</i></span></a><span>Designed with curiosity <span class="accent">✳</span> © <span id="year"></span> Jay Mane</span><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
